@@ -25,3 +25,11 @@ Open `index.html` in a browser, or use VS Code Live Server.
 - `styles.css` — theme, layout, animation and responsive styling
 - `script.js` — slider, mobile menu and WhatsApp enquiry form
 - `assets/` — supplied brand and photography assets
+
+
+## Portfolio structure update
+- Removed the "A Little About Our Lens" intro block and replaced it with an "Our Portfolio" landing heading.
+- Added four collection rows with Arun Photography-inspired titles, descriptions, four-column image grids and View More links: Wedding & Reception, Pre & Post-Wedding, Baby Photography, and Maternity Photography.
+- Added standalone pages: `wedding-reception.html`, `pre-post-wedding.html`, `baby-shoot.html`, and `maternity-shoot.html`.
+- Each page includes a dedicated heading, description, six image-ready gallery slots, enquiry CTA and shared navigation/footer.
+- Gallery areas are intentionally prepared as image placeholders for the photography and video assets to be supplied later. Existing homepage hero, services, about, testimonials and contact form remain.
