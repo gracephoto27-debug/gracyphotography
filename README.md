@@ -33,3 +33,11 @@ Open `index.html` in a browser, or use VS Code Live Server.
 - Added standalone pages: `wedding-reception.html`, `pre-post-wedding.html`, `baby-shoot.html`, and `maternity-shoot.html`.
 - Each page includes a dedicated heading, description, six image-ready gallery slots, enquiry CTA and shared navigation/footer.
 - Gallery areas are intentionally prepared as image placeholders for the photography and video assets to be supplied later. Existing homepage hero, services, about, testimonials and contact form remain.
+
+
+## Cinematic videos section
+- Added a Cinematic Stories feature section to the homepage with exactly two side-by-side video-ready frames.
+- Added a View More link to `cinematic-videos.html`.
+- Added the dedicated cinematic videos page with four additional video-ready frames (films 03–06).
+- Video cards are designed placeholders only; no video files have been inserted yet. Replace each cinematic video frame placeholder with a `<video controls>` element or a hosted embed when final clips are supplied.
+- Layout is responsive and follows the Arun Photography reference: centred cinematic heading, left-aligned video subheading, horizontal desktop video grid, and clear View More action.
