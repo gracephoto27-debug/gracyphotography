@@ -25,7 +25,7 @@ if(enquiryForm){
   enquiryForm.addEventListener('submit',e=>{
     e.preventDefault();
     const data=new FormData(e.currentTarget);
-    const msg=['Hello Grace Photography! I would like to enquire about a photoshoot/event.',`Name: ${data.get('name')}`,`Phone: ${data.get('phone')}`,`Event: ${data.get('event')||'Not specified'}`,`Date: ${data.get('date')||'Not specified'}`,`Message: ${data.get('message')||'—'}`].join('\n');
+    const msg=['Hello Grace Photography! I would like to enquire about a photoshoot/event.',`Name: ${data.get('name')}`,`Phone: ${data.get('phone')}`,`Event / Wedding Date: ${data.get('event_date')||'Not specified'}`,`Message: ${data.get('message')||'—'}`].join('\\n');
     window.open('https://wa.me/919841484476?text='+encodeURIComponent(msg),'_blank','noopener');
   });
 }
