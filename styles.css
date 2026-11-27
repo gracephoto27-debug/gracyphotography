@@ -19,3 +19,79 @@
   outline: 0 !important;
   box-shadow: none !important;
 }
+
+
+/* Portfolio framework — Arun Photography-inspired collection rows */
+.portfolio-intro{background:#f7f2e9;text-align:center;padding-top:84px;padding-bottom:66px}
+.portfolio-intro .eyebrow{color:#a8793e;margin-bottom:15px}
+.portfolio-intro h2{margin:0;color:#241b12;font:500 clamp(38px,4.2vw,52px)/1.1 "Cormorant Garamond",serif}
+.portfolio-intro h2 em{color:#a8793e;font-weight:400}
+.portfolio-ornament{color:#b88a4e;letter-spacing:6px;margin:18px 0}
+.portfolio-intro-copy{max-width:720px;margin:0 auto;color:#776c5d;font-size:12px;line-height:1.9}
+.portfolio-collections{background:#17120d;color:#f7f0e5}
+.collection-row{padding-top:48px;padding-bottom:58px;border-bottom:1px solid rgba(230,207,169,.17)}
+.collection-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:25px}
+.collection-heading .eyebrow{margin-bottom:11px}
+.collection-heading h2{font:500 clamp(30px,3.2vw,39px)/1.15 "Cormorant Garamond",serif;margin:0;color:#f5eee3}
+.collection-heading h2 em{color:#e2bd7e;font-weight:400}
+.collection-heading p:not(.eyebrow){margin:8px 0 0;color:#bfb3a2;font-size:12px;line-height:1.7}
+.collection-more{flex:0 0 auto;border:1px solid rgba(226,196,145,.6);padding:12px 17px;font-size:9px;letter-spacing:1.5px;color:#f0d7ac;transition:.25s}
+.collection-more span{margin-left:13px;font-size:15px}
+.collection-more:hover{background:#d7b477;color:#21170e;border-color:#d7b477}
+.collection-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.collection-tile{display:block;min-height:238px;height:clamp(190px,19vw,260px);position:relative;overflow:hidden;border:1px solid rgba(232,204,157,.13);background-color:#493522;isolation:isolate;transition:border-color .25s,transform .25s}
+.collection-tile:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 63% 27%,rgba(246,208,145,.34),transparent 39%),linear-gradient(145deg,#8a6039 0%,#51351f 48%,#211810 100%);transition:transform .7s;z-index:-2}
+.collection-tile:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(0deg,rgba(8,7,5,.88),transparent);z-index:-1}
+.collection-tile:hover{border-color:rgba(230,194,130,.75);transform:translateY(-3px)}
+.collection-tile:hover:before{transform:scale(1.06)}
+.tile-index{position:absolute;top:13px;right:14px;color:rgba(255,239,213,.8);font-size:9px;letter-spacing:1.5px}
+.tile-label{position:absolute;left:17px;right:12px;bottom:15px;color:#fff8ee;font:500 21px/1.1 "Cormorant Garamond",serif}
+.wedding-slot-two:before{background:radial-gradient(ellipse at 40% 24%,#c39a68,transparent 35%),linear-gradient(135deg,#513b2c,#9b7247 52%,#1d1712)}
+.wedding-slot-three:before{background:radial-gradient(ellipse at 70% 32%,#d0ae76,transparent 33%),linear-gradient(140deg,#1b2022,#5d4935 55%,#1a120d)}
+.wedding-slot-four:before{background:radial-gradient(ellipse at 30% 30%,#dcb77e,transparent 32%),linear-gradient(130deg,#6e4226,#311e15 65%,#17100b)}
+.couple-slot-one:before{background:radial-gradient(ellipse at 42% 30%,#d6ae79,transparent 36%),linear-gradient(140deg,#8e6540,#3e2c21 65%,#1b1713)}
+.couple-slot-two:before{background:radial-gradient(ellipse at 60% 23%,#c7a77c,transparent 35%),linear-gradient(130deg,#414b3b,#9c754a 55%,#251d15)}
+.couple-slot-three:before{background:radial-gradient(ellipse at 65% 28%,#e0c7a0,transparent 35%),linear-gradient(130deg,#b48d65,#553a2c 58%,#201711)}
+.couple-slot-four:before{background:radial-gradient(ellipse at 30% 25%,#bc9469,transparent 38%),linear-gradient(145deg,#5b4735,#a0794c 48%,#21170f)}
+.baby-slot-one:before{background:radial-gradient(ellipse at 60% 25%,#e7cda7,transparent 37%),linear-gradient(145deg,#c9a77c,#76563c 60%,#322117)}
+.baby-slot-two:before{background:radial-gradient(ellipse at 40% 30%,#d4bd9a,transparent 34%),linear-gradient(140deg,#8e9b89,#b28e65 50%,#3b2d22)}
+.baby-slot-three:before{background:radial-gradient(ellipse at 63% 25%,#e5cfaa,transparent 36%),linear-gradient(140deg,#a67e58,#e0c39a 48%,#5d4735)}
+.baby-slot-four:before{background:radial-gradient(ellipse at 32% 27%,#d8ba8e,transparent 34%),linear-gradient(140deg,#79604a,#c0a079 53%,#2d2119)}
+.maternity-slot-one:before{background:radial-gradient(ellipse at 55% 28%,#f0d5a8,transparent 35%),linear-gradient(140deg,#b58b5b,#67452c 55%,#23170f)}
+.maternity-slot-two:before{background:radial-gradient(ellipse at 38% 25%,#e1bd8d,transparent 35%),linear-gradient(140deg,#4c5948,#9a7549 55%,#211710)}
+.maternity-slot-three:before{background:radial-gradient(ellipse at 70% 28%,#e5c69c,transparent 34%),linear-gradient(140deg,#8b6347,#d1a875 55%,#302117)}
+.maternity-slot-four:before{background:radial-gradient(ellipse at 35% 24%,#e8d2ae,transparent 34%),linear-gradient(140deg,#9a8267,#55402e 55%,#1c140e)}
+.collection-page{background:#f7f2e9;min-height:100vh}
+.collection-page-hero{min-height:370px;padding:145px 8% 65px;background:linear-gradient(105deg,rgba(23,16,10,.94),rgba(37,24,13,.79)),radial-gradient(ellipse at 75% 22%,#986a3f,#24180f 68%);color:#fff;text-align:center}
+.collection-page-hero .eyebrow{margin-bottom:14px}
+.collection-page-hero h1{font:500 clamp(42px,5vw,64px)/1 "Cormorant Garamond",serif;margin:0}
+.collection-page-hero h1 em{color:#e6c183;font-weight:400}
+.collection-page-hero p:not(.eyebrow){max-width:680px;margin:19px auto 0;font-size:12px;line-height:1.9;color:#e1d4c2}
+.collection-breadcrumb{margin-top:24px;font-size:9px;letter-spacing:1.3px;color:#d9bd89;text-transform:uppercase}
+.collection-breadcrumb a{color:#fff2dc}
+.collection-page-content{width:min(1200px,86%);margin:0 auto;padding:62px 0 90px}
+.collection-page-heading{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:26px}
+.collection-page-heading h2{font:500 35px/1.1 "Cormorant Garamond",serif;margin:0;color:#2a1f15}
+.collection-page-heading p{max-width:650px;font-size:11px;color:#817464;margin:9px 0 0;line-height:1.8}
+.collection-page-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.collection-page-grid .collection-tile{height:280px;min-height:230px}
+.collection-page-note{border-top:1px solid #d8c9b4;margin-top:32px;padding-top:19px;color:#8a7c6b;font-size:10px;letter-spacing:.3px}
+.collection-cta{margin-top:45px;padding:32px;background:#211810;color:#f8f0e3;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.collection-cta h3{font:500 29px "Cormorant Garamond",serif;margin:0}
+.collection-cta p{color:#c9bba7;font-size:11px;margin:5px 0 0}
+.collection-cta .gold-button{white-space:nowrap}
+@media(max-width:900px){.collection-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.collection-tile{height:225px}.collection-page-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.collection-page-hero{min-height:340px}}
+@media(max-width:560px){
+ .portfolio-intro{padding-top:76px;padding-bottom:45px}.portfolio-intro-copy{font-size:11px}
+ .collection-row{padding-top:35px;padding-bottom:40px}
+ .collection-heading{align-items:flex-start;flex-direction:column;gap:14px}
+ .collection-heading h2{font-size:30px}.collection-heading p:not(.eyebrow){font-size:10px}
+ .collection-more{align-self:flex-start;padding:10px 14px}
+ .collection-grid{gap:8px}.collection-tile{min-height:160px;height:43vw}
+ .tile-label{font-size:17px;left:11px;bottom:12px}.tile-index{top:9px;right:10px}
+ .collection-page-hero{min-height:340px;padding:123px 7% 52px}.collection-page-hero h1{font-size:43px}
+ .collection-page-content{width:88%;padding:42px 0 65px}
+ .collection-page-heading{align-items:flex-start;flex-direction:column}.collection-page-heading h2{font-size:31px}
+ .collection-page-grid{gap:8px}.collection-page-grid .collection-tile{min-height:165px;height:43vw}
+ .collection-cta{padding:24px 19px;flex-direction:column;align-items:flex-start}.collection-cta h3{font-size:25px}
+}
