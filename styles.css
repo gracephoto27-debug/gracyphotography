@@ -637,3 +637,16 @@
   .enquiry-form textarea { min-height:105px; }
   .enquiry-form .form-submit { min-height:52px; }
 }
+
+
+/* Hero slide image slots: add the matching files under assets/ when ready. */
+.hero-slide.slide-two[style*="hero-slide-02.jpg"] {
+  background-image:
+    var(--slide-image),
+    radial-gradient(ellipse at 72% 50%,#b47c3d 0,#6b4327 23%,#2a2118 55%,#17130f 100%);
+}
+.hero-slide.slide-three[style*="hero-slide-03.jpg"] {
+  background-image:
+    var(--slide-image),
+    radial-gradient(ellipse at 78% 44%,#d4a05b 0,#80502e 25%,#3b291b 56%,#18120d 100%);
+}
