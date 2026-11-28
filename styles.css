@@ -1129,87 +1129,8 @@ body.golden-hour-page .floating-socials a, body.golden-hour-page .floating-socia
 @media(max-width:900px){body.golden-hour-page .main-nav, body.golden-hour-page .main-nav.open{background:var(--gh-brown-deep)!important;border-color:rgba(242,184,102,.28)!important}}
 
 
-/* Homepage finishing pass: blue cinematic/gallery cards + warm ivory map */
-/* 1) Keep the homepage cinematic section in its deep-blue visual family.
-   The section background is already blue; this brings its two video frames
-   and their controls into the same slate/navy palette. */
-#cinematic-stories .cinematic-video-card {
-  border-color:rgba(169,192,223,.22);
-}
-#cinematic-stories .cinematic-video-frame {
-  background-color:#101d2e;
-  border-color:rgba(169,192,223,.28);
-}
-#cinematic-stories .cinematic-video-frame:after {
-  background:linear-gradient(0deg,rgba(3,8,17,.82),rgba(6,15,29,.16) 62%,rgba(6,15,29,.22));
-}
-#cinematic-stories .cinematic-art-one:before {
-  background:
-    radial-gradient(ellipse at 50% 35%,rgba(115,155,198,.34),transparent 36%),
-    linear-gradient(135deg,#263f5d 0%,#1b3049 42%,#111e31 76%,#080f1c 100%);
-}
-#cinematic-stories .cinematic-art-two:before {
-  background:
-    radial-gradient(ellipse at 68% 28%,rgba(106,145,184,.34),transparent 34%),
-    linear-gradient(145deg,#304a67 0%,#1b2d45 46%,#16243a 73%,#080f1c 100%);
-}
-#cinematic-stories .cinematic-frame-label,
-#cinematic-stories .cinematic-add-note {
-  color:rgba(235,242,250,.9);
-}
-#cinematic-stories .cinematic-frame-label i { color:#d6b77b; }
-#cinematic-stories .cinematic-play-mark {
-  background:rgba(8,15,28,.55);
-  border-color:rgba(223,235,248,.78);
-  color:#f4f0e8;
-  box-shadow:0 0 0 9px rgba(169,192,223,.08);
-}
-
-/* 2) Featured gallery tiles use the gallery's own navy/slate palette.
-   Uploaded photographs stay untouched; these colours are the framework
-   fallback until each image is added. */
-#featured-gallery .featured-gallery-card {
-  background:#17263b;
-  border-color:rgba(169,192,223,.24);
-}
-#featured-gallery .featured-gallery-card:before {
-  background:
-    radial-gradient(ellipse at 65% 25%,rgba(106,145,184,.36),transparent 36%),
-    linear-gradient(145deg,#2b4564 0%,#1d3049 52%,#0b1423 100%);
-}
-#featured-gallery .gallery-card-couple:before {
-  background:
-    radial-gradient(ellipse at 40% 25%,rgba(117,155,194,.38),transparent 36%),
-    linear-gradient(135deg,#294560,#1d3049 52%,#0b1423);
-}
-#featured-gallery .gallery-card-bridal:before {
-  background:
-    radial-gradient(ellipse at 55% 26%,rgba(128,164,199,.4),transparent 34%),
-    linear-gradient(140deg,#395571,#20344d 55%,#0b1423);
-}
-#featured-gallery .gallery-card-baby:before {
-  background:
-    radial-gradient(ellipse at 52% 26%,rgba(147,174,203,.42),transparent 38%),
-    linear-gradient(140deg,#415b75,#263b55 55%,#101b2c);
-}
-#featured-gallery .gallery-card-maternity:before {
-  background:
-    radial-gradient(ellipse at 60% 25%,rgba(126,161,197,.4),transparent 35%),
-    linear-gradient(140deg,#344e6a,#20344d 56%,#0d1929);
-}
-#featured-gallery .gallery-card-celebration:before {
-  background:
-    radial-gradient(ellipse at 38% 28%,rgba(133,166,198,.4),transparent 36%),
-    linear-gradient(140deg,#3b5875,#22364f 58%,#0b1423);
-}
-#featured-gallery .featured-gallery-card:after {
-  background:linear-gradient(0deg,rgba(4,9,18,.9),rgba(4,9,18,.06));
-}
-#featured-gallery .featured-gallery-card:hover {
-  border-color:rgba(169,192,223,.72);
-}
-
-/* 3) Map block: light Golden Hour ivory / warm-brown treatment.
+/* Restore original cinematic and featured-gallery styling; retain only the approved light Golden Hour map treatment. */
+/* Map block: light Golden Hour ivory / warm-brown treatment.
    The Google Maps embed itself remains unchanged. */
 #location.studio-location {
   background:#FFF3E0;
