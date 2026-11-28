@@ -41,3 +41,10 @@ Open `index.html` in a browser, or use VS Code Live Server.
 - Added the dedicated cinematic videos page with four additional video-ready frames (films 03–06).
 - Video cards are designed placeholders only; no video files have been inserted yet. Replace each cinematic video frame placeholder with a `<video controls>` element or a hosted embed when final clips are supplied.
 - Layout is responsive and follows the Arun Photography reference: centred cinematic heading, left-aligned video subheading, horizontal desktop video grid, and clear View More action.
+
+
+## Organized asset upload folders
+- See [ASSET-UPLOAD-GUIDE.md](ASSET-UPLOAD-GUIDE.md) for the full file naming checklist and upload instructions.
+- Images are organized by Featured Gallery, Wedding & Reception, Pre & Post-Wedding, Baby Shoot and Maternity Shoot.
+- Cinematic video files are wired to six named MP4 paths with optional poster images.
+- Upload each file into the exact folder and filename listed in the guide; do not rename the files.
