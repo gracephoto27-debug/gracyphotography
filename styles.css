@@ -1238,3 +1238,49 @@ body.golden-hour-page .floating-socials a, body.golden-hour-page .floating-socia
 #featured-gallery .gallery-card-title {
   color:#FFFFFF;
 }
+
+
+/* Testimonials section — match Cinematic Videos deep navy theme */
+#testimonials.reviews {
+  background:#080f1c;
+  color:#f4f0e8;
+  border-top:1px solid rgba(214,190,151,.14);
+  border-bottom:1px solid rgba(214,190,151,.14);
+}
+#testimonials .section-heading h2 {
+  color:#f2eee7;
+}
+#testimonials .section-heading h2 em {
+  color:#d5b77d;
+}
+#testimonials .section-heading .eyebrow {
+  color:#a9c0df;
+}
+#testimonials .rating strong {
+  color:#f2eee7;
+}
+#testimonials .rating span,
+#testimonials .stars {
+  color:#d5b77d;
+}
+#testimonials .rating small {
+  color:#afbac9;
+}
+#testimonials .review-grid blockquote {
+  background:linear-gradient(145deg,#14243a 0%,#101d2e 64%,#0b1524 100%);
+  border:1px solid rgba(169,192,223,.22);
+  box-shadow:0 12px 34px rgba(0,0,0,.12);
+}
+#testimonials .review-grid blockquote>p {
+  color:#f2eee7;
+}
+#testimonials .review-grid footer {
+  border-top:1px solid rgba(169,192,223,.2);
+}
+#testimonials .review-grid footer b {
+  color:#f4f0e8;
+}
+#testimonials .review-grid footer small,
+#testimonials .review-source {
+  color:#aebbd0;
+}
