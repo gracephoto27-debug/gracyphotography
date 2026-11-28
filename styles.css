@@ -1167,3 +1167,74 @@ body.golden-hour-page .floating-socials a, body.golden-hour-page .floating-socia
   border-color:#A65A2A;
   color:#FFFFFF;
 }
+
+
+/* Featured Gallery — light Golden Hour palette (map-matched) */
+#featured-gallery.featured-gallery {
+  background:#FFF3E0;
+  color:#5A2F16;
+  border-top:1px solid rgba(166,90,42,.20);
+  border-bottom:1px solid rgba(166,90,42,.20);
+}
+#featured-gallery .gallery-section-heading .eyebrow {
+  color:#A65A2A;
+}
+#featured-gallery .gallery-section-heading h2 {
+  color:#5A2F16;
+}
+#featured-gallery .gallery-section-heading h2 em {
+  color:#A65A2A;
+}
+#featured-gallery .gallery-ornament {
+  color:#F2B866;
+}
+#featured-gallery .gallery-section-heading>p:last-child {
+  color:#8A6549;
+}
+#featured-gallery .featured-gallery-card {
+  border-color:rgba(166,90,42,.34);
+  background:#A65A2A;
+}
+#featured-gallery .featured-gallery-card:before {
+  background:
+    radial-gradient(ellipse at 64% 26%,rgba(255,243,224,.54),transparent 36%),
+    linear-gradient(145deg,#C8894B 0%,#A65A2A 52%,#5A2F16 100%);
+}
+#featured-gallery .gallery-card-couple:before {
+  background:
+    radial-gradient(ellipse at 40% 25%,rgba(255,243,224,.58),transparent 36%),
+    linear-gradient(135deg,#D49A5F,#A65A2A 52%,#5A2F16);
+}
+#featured-gallery .gallery-card-bridal:before {
+  background:
+    radial-gradient(ellipse at 55% 26%,rgba(255,243,224,.6),transparent 34%),
+    linear-gradient(140deg,#E0AD70,#A65A2A 55%,#5A2F16);
+}
+#featured-gallery .gallery-card-baby:before {
+  background:
+    radial-gradient(ellipse at 52% 26%,rgba(255,243,224,.64),transparent 38%),
+    linear-gradient(140deg,#E6BD8C,#C17A43 55%,#74401F);
+}
+#featured-gallery .gallery-card-maternity:before {
+  background:
+    radial-gradient(ellipse at 60% 25%,rgba(255,243,224,.58),transparent 35%),
+    linear-gradient(140deg,#D7A36D,#A65A2A 56%,#5A2F16);
+}
+#featured-gallery .gallery-card-celebration:before {
+  background:
+    radial-gradient(ellipse at 38% 28%,rgba(255,243,224,.6),transparent 36%),
+    linear-gradient(140deg,#D39A5C,#A65A2A 58%,#5A2F16);
+}
+#featured-gallery .featured-gallery-card:after {
+  background:linear-gradient(0deg,rgba(63,31,14,.82),rgba(63,31,14,.02) 72%);
+}
+#featured-gallery .featured-gallery-card:hover {
+  border-color:#F2B866;
+  box-shadow:0 14px 32px rgba(90,47,22,.16);
+}
+#featured-gallery .gallery-card-index {
+  color:#FFF3E0;
+}
+#featured-gallery .gallery-card-title {
+  color:#FFFFFF;
+}
