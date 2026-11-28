@@ -1240,47 +1240,77 @@ body.golden-hour-page .floating-socials a, body.golden-hour-page .floating-socia
 }
 
 
-/* Testimonials section — match Cinematic Videos deep navy theme */
-#testimonials.reviews {
-  background:#080f1c;
-  color:#f4f0e8;
-  border-top:1px solid rgba(214,190,151,.14);
-  border-bottom:1px solid rgba(214,190,151,.14);
+/* Homepage cinematic section — use the original warm Reviews palette */
+#cinematic-stories.cinematic-section {
+  background:#e9dfd0;
+  color:#2d2116;
+  border-top:1px solid #d6c7b0;
+  border-bottom:1px solid #d6c7b0;
 }
-#testimonials .section-heading h2 {
-  color:#f2eee7;
+#cinematic-stories .cinematic-intro .eyebrow {
+  color:#b1803d;
 }
-#testimonials .section-heading h2 em {
-  color:#d5b77d;
+#cinematic-stories .cinematic-intro h2,
+#cinematic-stories .cinematic-heading h3 {
+  color:#2d2116;
 }
-#testimonials .section-heading .eyebrow {
-  color:#a9c0df;
+#cinematic-stories .cinematic-intro h2 em {
+  color:#8d6535;
 }
-#testimonials .rating strong {
-  color:#f2eee7;
+#cinematic-stories .cinematic-ornament {
+  color:#b88643;
 }
-#testimonials .rating span,
-#testimonials .stars {
-  color:#d5b77d;
+#cinematic-stories .cinematic-intro>p:last-child,
+#cinematic-stories .cinematic-heading p {
+  color:#827565;
 }
-#testimonials .rating small {
-  color:#afbac9;
+#cinematic-stories .cinematic-view-more {
+  border-color:#c6a16b;
+  color:#5A2F16;
 }
-#testimonials .review-grid blockquote {
-  background:linear-gradient(145deg,#14243a 0%,#101d2e 64%,#0b1524 100%);
-  border:1px solid rgba(169,192,223,.22);
-  box-shadow:0 12px 34px rgba(0,0,0,.12);
+#cinematic-stories .cinematic-view-more:hover {
+  background:#F2B866;
+  border-color:#A65A2A;
+  color:#5A2F16;
 }
-#testimonials .review-grid blockquote>p {
-  color:#f2eee7;
+#cinematic-stories .cinematic-video-frame {
+  border-color:#d6c7b0;
+  background-color:#d8c4a9;
 }
-#testimonials .review-grid footer {
-  border-top:1px solid rgba(169,192,223,.2);
+#cinematic-stories .cinematic-art-one:before {
+  background:
+    radial-gradient(ellipse at 50% 37%,rgba(255,243,224,.62),transparent 34%),
+    linear-gradient(135deg,#d4b18a 0%,#a98259 39%,#765337 72%,#5A2F16 100%);
 }
-#testimonials .review-grid footer b {
-  color:#f4f0e8;
+#cinematic-stories .cinematic-art-two:before {
+  background:
+    radial-gradient(ellipse at 65% 28%,rgba(255,243,224,.58),transparent 33%),
+    linear-gradient(145deg,#b68e68 0%,#8a6549 48%,#c18b55 70%,#5A2F16 100%);
 }
-#testimonials .review-grid footer small,
-#testimonials .review-source {
-  color:#aebbd0;
+#cinematic-stories .cinematic-video-frame:after {
+  background:linear-gradient(0deg,rgba(63,31,14,.58),rgba(63,31,14,.04) 60%,rgba(63,31,14,.1));
+}
+#cinematic-stories .cinematic-frame-label {
+  color:#FFF3E0;
+}
+#cinematic-stories .cinematic-frame-label i {
+  color:#F2B866;
+}
+#cinematic-stories .cinematic-play-mark {
+  border-color:rgba(255,243,224,.82);
+  color:#FFF3E0;
+  background:rgba(90,47,22,.42);
+  box-shadow:0 0 0 9px rgba(90,47,22,.12);
+}
+#cinematic-stories .cinematic-add-note {
+  color:rgba(255,243,224,.9);
+}
+#cinematic-stories .cinematic-video-caption span {
+  color:#8d6535;
+}
+#cinematic-stories .cinematic-video-caption b {
+  color:#4c3a28;
+}
+#cinematic-stories .cinematic-footnote {
+  color:#827565;
 }
