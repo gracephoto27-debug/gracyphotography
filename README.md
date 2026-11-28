@@ -48,3 +48,14 @@ Open `index.html` in a browser, or use VS Code Live Server.
 - Images are organized by Featured Gallery, Wedding & Reception, Pre & Post-Wedding, Baby Shoot and Maternity Shoot.
 - Cinematic video files are wired to six named MP4 paths with optional poster images.
 - Upload each file into the exact folder and filename listed in the guide; do not rename the files.
+
+
+## Golden Hour / Sunset & Warm Gold palette
+The full website theme now follows the supplied reference palette:
+- Deep Brown: `#5A2F16`
+- Burnt Amber: `#A65A2A`
+- Warm Gold: `#F2B866`
+- Soft Ivory: `#FFF3E0`
+- White: `#FFFFFF`
+
+The shared `styles.css` applies this palette to the homepage, hero, portfolio collection rows, gallery, services, about section, testimonials, cinematic video section, map, contact form, header, navigation, footer and all portfolio detail pages. Browser theme colors use Deep Brown.
