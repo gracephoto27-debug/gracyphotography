@@ -29,3 +29,33 @@ if(enquiryForm){
     window.open('https://wa.me/919841484476?text='+encodeURIComponent(msg),'_blank','noopener');
   });
 }
+
+
+// Asset placeholders: remove failed image requests and activate video files on click.
+document.querySelectorAll('img[data-asset-fallback]').forEach(img=>{
+  img.addEventListener('error',()=>img.remove(),{once:true});
+});
+document.querySelectorAll('.cinematic-video-frame[data-video-src]').forEach(frame=>{
+  const activate=()=>{
+    if(frame.classList.contains('is-playing')) return;
+    const video=document.createElement('video');
+    video.className='cinematic-video-player';
+    video.controls=true;
+    video.playsInline=true;
+    video.preload='metadata';
+    const poster=frame.dataset.videoPoster;
+    if(poster) video.poster=poster;
+    const source=document.createElement('source');
+    source.src=frame.dataset.videoSrc;
+    source.type='video/mp4';
+    video.appendChild(source);
+    video.appendChild(document.createTextNode('Your browser does not support video playback.'));
+    frame.classList.add('is-playing');
+    frame.appendChild(video);
+    video.play().catch(()=>{});
+  };
+  frame.addEventListener('click',activate);
+  frame.addEventListener('keydown',event=>{
+    if(event.key==='Enter'||event.key===' '){event.preventDefault();activate();}
+  });
+});
