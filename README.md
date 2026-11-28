@@ -59,3 +59,6 @@ The full website theme now follows the supplied reference palette:
 - White: `#FFFFFF`
 
 The shared `styles.css` applies this palette to the homepage, hero, portfolio collection rows, gallery, services, about section, testimonials, cinematic video section, map, contact form, header, navigation, footer and all portfolio detail pages. Browser theme colors use Deep Brown.
+
+
+Theme scope note: the homepage keeps its original pre–Golden Hour theme; the five standalone portfolio/video pages use the Golden Hour palette.
