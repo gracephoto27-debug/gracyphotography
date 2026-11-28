@@ -51,14 +51,14 @@ Open `index.html` in a browser, or use VS Code Live Server.
 
 
 ## Golden Hour / Sunset & Warm Gold palette
-The full website theme now follows the supplied reference palette:
+The standalone portfolio and cinematic pages use the supplied reference palette:
 - Deep Brown: `#5A2F16`
 - Burnt Amber: `#A65A2A`
 - Warm Gold: `#F2B866`
 - Soft Ivory: `#FFF3E0`
 - White: `#FFFFFF`
 
-The shared `styles.css` applies this palette to the homepage, hero, portfolio collection rows, gallery, services, about section, testimonials, cinematic video section, map, contact form, header, navigation, footer and all portfolio detail pages. Browser theme colors use Deep Brown.
+The shared `styles.css` applies this palette to the standalone Wedding & Reception, Pre & Post-Wedding, Baby Shoot, Maternity Shoot and Cinematic Videos pages. The homepage retains its original pre–Golden Hour theme. Browser theme colors on the standalone pages use Deep Brown.
 
 
 Theme scope note: the homepage keeps its original pre–Golden Hour theme; the five standalone portfolio/video pages use the Golden Hour palette.
